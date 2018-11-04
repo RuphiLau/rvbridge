@@ -1,0 +1,31 @@
+{
+  "name": "rvbridge",
+  "version": "0.1.0",
+  "description": "RVBridge is a tool for invoking RegularJS components in a Vue project",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "prepublish": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuphiLau/rvbridge.git"
+  },
+  "author": "Ruphi <ruphilau@gmail.com> (https://ruphi.cn/)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/RuphiLau/rvbridge/issues"
+  },
+  "homepage": "https://github.com/RuphiLau/rvbridge#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "rollup": "^0.66.6",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-node-resolve": "^3.4.0"
+  }
+}
