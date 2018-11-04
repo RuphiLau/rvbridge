@@ -10,8 +10,8 @@ That's useful when you wanna gradually migrate your old RegularJS projects to Vu
 - Support custom events
 - Support `.sync` syntax
 - Support the default slot as regular's `{#inc this.$body}`
-- Supoort get `ref` of regular components
-- Support auto recycle after components were destroyed
+- Support getting `ref` of regular components
+- Support auto recycling after components were destroyed
 
 # Installation
 ```sh
