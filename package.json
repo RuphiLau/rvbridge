@@ -1,6 +1,6 @@
 {
   "name": "rvbridge",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "RVBridge is a tool for invoking RegularJS components in a Vue project",
   "main": "index.js",
   "directories": {

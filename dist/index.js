@@ -294,17 +294,9 @@
 
       return vueReference.$instance;
     }
-    var utils = {
-      getRef: getRef
-    };
-
-    var utils$1 = /*#__PURE__*/Object.freeze({
-        getRef: getRef,
-        default: utils
-    });
 
     exports.default = invoker;
-    exports.utils = utils$1;
+    exports.getRef = getRef;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 

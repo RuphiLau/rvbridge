@@ -1,7 +1,7 @@
 import RegularInvoker from './lib/regular-invoker'
-import * as utils from './lib/utils'
+import { getRef } from './lib/utils'
 
 export {
     RegularInvoker as default,
-    utils
+    getRef
 }
